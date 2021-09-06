@@ -74,6 +74,23 @@ console.log( LOG2E );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/constants/float64/e`][@stdlib/constants/float64/e]: euler's number.
+-   [`@stdlib/constants/float64/log10-e`][@stdlib/constants/float64/log10-e]: base 10 logarithm of Euler's number.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -130,6 +147,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-log2-e/main/LICENSE
 
 [eulers-number]: https://en.wikipedia.org/wiki/E_%28mathematical_constant%29
+
+<!-- <related-links> -->
+
+[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e
+
+[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e
+
+<!-- </related-links> -->
 
 </section>
 
