@@ -20,7 +20,7 @@ limitations under the License.
 
 # LOG2E
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Base 2 logarithm of the mathematical constant [_e_][eulers-number].
 
@@ -82,8 +82,8 @@ console.log( LOG2E );
 
 ## See Also
 
--   [`@stdlib/constants/float64/e`][@stdlib/constants/float64/e]: euler's number.
--   [`@stdlib/constants/float64/log10-e`][@stdlib/constants/float64/log10-e]: base 10 logarithm of Euler's number.
+-   <span class="package-name">[`@stdlib/constants/float64/e`][@stdlib/constants/float64/e]</span><span class="delimiter">: </span><span class="description">euler's number.</span>
+-   <span class="package-name">[`@stdlib/constants/float64/log10-e`][@stdlib/constants/float64/log10-e]</span><span class="delimiter">: </span><span class="description">base 10 logarithm of Euler's number.</span>
 
 </section>
 
@@ -134,8 +134,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float64-log2-e/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float64-log2-e?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float64-log2-e.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-float64-log2-e/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
