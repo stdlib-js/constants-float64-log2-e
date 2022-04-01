@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/constants-float64-log2-e",
+  "version": "0.0.0",
+  "description": "Base 2 logarithm of Euler's number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float64-log2-e.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "e",
+    "euler",
+    "napier",
+    "log2",
+    "logarithm",
+    "log",
+    "ieee754",
+    "double",
+    "dbl",
+    "precision",
+    "floating-point",
+    "float64"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
