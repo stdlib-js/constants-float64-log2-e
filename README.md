@@ -24,32 +24,30 @@ limitations under the License.
 
 > Base 2 logarithm of the mathematical constant [_e_][eulers-number].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-log2-e
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-LOG2E = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.LOG2E;
-})();
-</script>
+var LOG2E = require( '@stdlib/constants-float64-log2-e' );
 ```
 
 #### LOG2E
@@ -73,21 +71,11 @@ var bool = ( LOG2E === 1.4426950408889634 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var LOG2E = require( '@stdlib/constants-float64-log2-e' );
 
 console.log( LOG2E );
 // => 1.4426950408889634
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -174,6 +162,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float64-log2-e/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float64-log2-e/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-log2-e/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float64-log2-e/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-log2-e/main/LICENSE
 
@@ -181,9 +170,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e/tree/umd
+[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e
 
-[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e/tree/umd
+[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e
 
 <!-- </related-links> -->
 
