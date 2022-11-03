@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-log2-e/tags). For example,
+
+```javascript
 import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.0.8-esm/index.mjs';
 ```
 
@@ -61,7 +66,7 @@ var bool = ( LOG2E === 1.4426950408889634 );
 <body>
 <script type="module">
 
-import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.0.8-esm/index.mjs';
+import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@esm/index.mjs';
 
 console.log( LOG2E );
 // => 1.4426950408889634
