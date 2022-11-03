@@ -33,7 +33,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-LOG2E = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@umd/browser.js' )
+LOG2E = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.0.8-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -45,7 +45,7 @@ var LOG2E = require( 'path/to/vendor/umd/constants-float64-log2-e/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.0.8-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -83,7 +83,7 @@ var bool = ( LOG2E === 1.4426950408889634 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.0.8-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
