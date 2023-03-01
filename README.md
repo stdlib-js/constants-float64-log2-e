@@ -144,8 +144,8 @@ Macro for the base 2 logarithm of the mathematical constant [_e_][eulers-number]
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float64/e`][@stdlib/constants/float64/e]</span><span class="delimiter">: </span><span class="description">euler's number.</span>
--   <span class="package-name">[`@stdlib/constants/float64/log10-e`][@stdlib/constants/float64/log10-e]</span><span class="delimiter">: </span><span class="description">base 10 logarithm of Euler's number.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/e`][@stdlib/constants/float64/e]</span><span class="delimiter">: </span><span class="description">euler's number.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/log10-e`][@stdlib/constants/float64/log10-e]</span><span class="delimiter">: </span><span class="description">base 10 logarithm of Euler's number.</span>
 
 </section>
 
