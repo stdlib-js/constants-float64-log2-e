@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-log2-e/tags). For example,
+
+```javascript
 import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.1.1-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( LOG2E === 1.4426950408889634 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.1.1-deno/mod.js';
+import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@deno/mod.js';
 
 console.log( LOG2E );
 // => 1.4426950408889634
