@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@esm/index.mjs';
+import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.2.0-esm/index.mjs';
 ```
 
 #### LOG2E
@@ -72,7 +72,7 @@ var bool = ( LOG2E === 1.4426950408889634 );
 <body>
 <script type="module">
 
-import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@esm/index.mjs';
+import LOG2E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log2-e@v0.2.0-esm/index.mjs';
 
 console.log( LOG2E );
 // => 1.4426950408889634
